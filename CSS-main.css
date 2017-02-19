@@ -65,6 +65,7 @@ topTitle {
     top: 0;
     border: none;
     text-align: center;
+    border-radius: 0px;
 }
 
 #downArrow {
