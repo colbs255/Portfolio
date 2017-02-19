@@ -1,7 +1,7 @@
 
 #jumbo {
     background-color: black;
-    color: greenyellow;
+    color: #94FF00;
     text-align: center;
     display: flex;
     align-items: center;
@@ -20,13 +20,13 @@
 }
 
 ct {
-    color: limegreen;
+    color: #01D200;
     font-size: 30px;
     
 }
 
 footer {
-/*    background-color: greenyellow;*/
+/*    background-color: #94FF00;*/
 }
 
 footer > p {
@@ -57,7 +57,7 @@ topTitle {
 
 #coverButton {
     color: black;
-    background-color: greenyellow;
+    background-color: #94FF00;
     width: 100%;
     height: 5%;
     z-index: 9999;
@@ -95,5 +95,5 @@ li {
 .imgRight {
     margin-top: 5px;
     margin-left: 5px;
-    border: 1px solid limegreen;
+    border: 1px solid #01D200;
 }
