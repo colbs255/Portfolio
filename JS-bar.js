@@ -5,7 +5,7 @@ $(document).ready(function() {
       if ($(window).scrollTop() > ($('#jumbo').outerHeight()) - $('#coverButton').height()) {
             document.getElementById("coverButton").innerHTML = currentText;
        } else {
-           document.getElementById("coverButton").innerHTML = '<span class="glyphicon glyphicon-chevron-down" id="downArrow"></span>';
+           document.getElementById("coverButton").innerHTML = '<span class="glyphicon glyphicon-chevron-down navbar-text" id="downArrow"></span>';
         console.log("Abs" + $('#coverButton').hasClass("absBar"));
        }
     });

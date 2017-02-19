@@ -47,6 +47,7 @@ topTitle {
     color: black;
     font-size: 30px;
     font-family: andalemono;
+    text-align: center;
 }
 
 #changedPadding {
@@ -63,10 +64,12 @@ topTitle {
     position: fixed;
     top: 0;
     border: none;
+    text-align: center;
 }
 
 #downArrow {
     font-size: 30px;
+    text-align: center;
 }
 
 .carousel-control.left, .carousel-control.right {
