@@ -6,7 +6,6 @@ $(document).ready(function() {
             document.getElementById("coverButton").innerHTML = currentText;
        } else {
            document.getElementById("coverButton").innerHTML = '<span class="glyphicon glyphicon-chevron-down navbar-text" id="downArrow"></span>';
-        console.log("Abs" + $('#coverButton').hasClass("absBar"));
        }
     });
 });
