@@ -77,7 +77,7 @@ topTitle {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
-    width: 4%;
+    width: 6%;
     background-color: lightgray;
     opacity: 1;
 }
@@ -104,5 +104,13 @@ tbody tr > :first-child {
 }
 
 tr td {
+    text-align: center;
+}
+
+.glyphicon-ok {
+    color: #01D200;
+}
+
+.checkTable th {
     text-align: center;
 }
