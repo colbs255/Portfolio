@@ -73,6 +73,7 @@ topTitle {
 #downArrow {
     font-size: 30px;
     text-align: center;
+    float: none;
 }
 
 .carousel-control.left, .carousel-control.right {
