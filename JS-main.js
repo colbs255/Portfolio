@@ -25,3 +25,4 @@ $("#coverButton").on('click', function(e) {
         scrollTop: $('#jumbo').outerHeight() - $('#coverButton').outerHeight()
     }, "slow");
 });
+

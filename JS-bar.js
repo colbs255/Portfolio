@@ -10,4 +10,3 @@ $(document).ready(function() {
     });
 });
 
-//$(window).scrollTop() > ($('#jumbo').outerHeight()) - $('#coverButton').height()
