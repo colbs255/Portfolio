@@ -18,3 +18,10 @@ $("#myCarousel").on('slid.bs.carousel', function () {
         cb.innerHTML = currentText;
     console.log($('div.active').index() + 1);
     });
+
+$("#coverButton").on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $('#jumbo').outerHeight() - $('#coverButton').outerHeight()
+    }, "slow");
+});
