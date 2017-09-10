@@ -1,4 +1,4 @@
-var currentText = "<topTitle><b>~/ColbyChance/AboutMe</b></topTitle>";
+var currentText = "<topTitle><b>/ColbyChance/AboutMe</b></topTitle>";
 
 $(document).ready(function() {
     $(window).bind('scroll', function() {

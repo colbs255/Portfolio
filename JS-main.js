@@ -9,11 +9,11 @@ setInterval(function() {
 var cb = document.getElementById("coverButton");
 $("#myCarousel").on('slid.bs.carousel', function () {
         if ($('div.active').index() == 1) {
-            currentText = "<topTitle><b>~/ColbyChance/AboutMe</b></topTitle>";
+            currentText = "<topTitle><b>/ColbyChance/AboutMe</b></topTitle>";
         } else if ($('div.active').index() == 2) {
-            currentText = "<topTitle><b>~/ColbyChance/Projects</b></topTitle>";
+            currentText = "<topTitle><b>/ColbyChance/Projects</b></topTitle>";
         } else if ($('div.active').index() == 0) {
-            currentText = "<topTitle><b>~/ColbyChance/Skills</b></topTitle>";
+            currentText = "<topTitle><b>/ColbyChance/Skills</b></topTitle>";
         }
         cb.innerHTML = currentText;
     console.log($('div.active').index() + 1);
