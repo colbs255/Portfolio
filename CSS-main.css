@@ -115,3 +115,7 @@ tr td {
 .checkTable th {
     text-align: center;
 }
+
+.normal {
+    font-size: 30px;
+}
