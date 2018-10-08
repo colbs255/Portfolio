@@ -5,6 +5,8 @@
     text-align: center;
     display: flex;
     align-items: center;
+    z-index: 2;
+    position: relative;
 }
 
 .absBar {
@@ -79,7 +81,7 @@ topTitle {
 .carousel-control.left, .carousel-control.right {
     background-image: none;
     width: 6%;
-    background-color: lightgray;
+    background-color: white;
     opacity: 1;
 }
 .myNavs {
@@ -118,4 +120,44 @@ tr td {
 
 .normal {
     font-size: 30px;
+}
+
+/*Side button*/
+
+.side-button {
+    position: fixed;
+    bottom: 50%;
+    color: black;
+    z-index: 1;
+    background-color: #94FF00;
+    border-color: dimgray;
+    border-width: 1px;
+/*    visibility: hidden;*/
+    width: 100px;
+}
+
+.side-button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.side-button:focus {
+    background-color: #94FF00;
+    color: black;
+    outline: 0;
+}
+
+.side-button:active:focus {
+    background-color: #549c02;
+    border-color: dimgray;
+}
+
+.side-button-left {
+    left: -23px;
+    transform: rotate(270deg);
+}
+
+.side-button-right {
+    right: -23px;
+    transform: rotate(90deg)
 }
